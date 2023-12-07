@@ -1,0 +1,23 @@
+{
+  "name": "vitest-quick-start",
+  "version": "1.0.m0",
+  "description": "",
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test-ui": "vitest --ui --coverage.enabled=true",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitest/coverage-istanbul": "^1.0.1",
+    "@vitest/coverage-v8": "^1.0.1",
+    "@vitest/ui": "^1.0.1",
+    "vitest": "^1.0.1"
+  }
+}
